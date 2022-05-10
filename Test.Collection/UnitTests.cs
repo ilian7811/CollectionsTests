@@ -185,7 +185,7 @@ namespace Collection.Test
             nums.Exchange(firstIndex, secondIndex);
 
             //Assert
-            Assert.That(nums[firstIndex], Is.EqualTo(6));
+            Assert.That(nums[firstIndex], Is.EqualTo(7));
         }
 
     }
